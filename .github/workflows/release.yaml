@@ -12,9 +12,9 @@ jobs:
       with:
         ref: 'master'
     # Setup .npmrc file to publish to npm
-    - uses: actions/setup-node@v2.1.5
+    - uses: actions/setup-node@v2.2.0
       with:
-        node-version: '14.x'
+        node-version: '14'
         registry-url: 'https://registry.npmjs.org'
     - id: install
       run: yarn install --frozen-lockfile
