@@ -306,10 +306,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@commitlint/cli@^16.0.1":
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.0.1.tgz#21905c898ebece7da42277209022b1bc80c4fb39"
-  integrity sha512-61gGRy65WiVDRsqP0dAR2fAgE3qrTBW3fgz9MySv32y5Ib3ZXXDDq6bGyQqi2dSaPuDYzNCRwwlC7mmQM73T/g==
+"@commitlint/cli@^16.0.2":
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.0.2.tgz#393b03793fc59b93e5f4dd7dd535a6cc5a7413ca"
+  integrity sha512-Jt7iaBjoLGC5Nq4dHPTvTYnqPGkElFPBtTXTvBpTgatZApczyjI2plE0oG4GYWPp1suHIS/VdVDOMpPZjGVusg==
   dependencies:
     "@commitlint/format" "^16.0.0"
     "@commitlint/lint" "^16.0.0"
@@ -1574,11 +1574,11 @@ commander@^8.3.0, commander@~8.3.0:
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
 commitlint@^16.0.0:
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-16.0.1.tgz#d6b30711e426ef1810c84f6df8f65ec11b561dde"
-  integrity sha512-LShxd2o07z7uW6Z5oEIHChODlvBKO9JtNgWjxbaqLgL/SFLy8gRoWcwJrgOk/F7WA564TYaDWEBAELyVEmpSzw==
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-16.0.2.tgz#55004513c6d1928e32f0989bc47a3a644776c771"
+  integrity sha512-2gs6RT5q7Z1ustssIXZ9pHXml47LkMvZhAmQcKtjEYzixkqKP8eH/ty3pUjlVcidGWRzw6K87U8PS9Nz1qKhuA==
   dependencies:
-    "@commitlint/cli" "^16.0.1"
+    "@commitlint/cli" "^16.0.2"
     "@commitlint/types" "^16.0.0"
 
 compare-func@^2.0.0:
@@ -2342,9 +2342,9 @@ form-data@~2.3.2:
     mime-types "^2.1.12"
 
 fp-ts@^2.8.3:
-  version "2.11.5"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.11.5.tgz#97cceb26655b1452d7088d6fb0864f84cceffbe4"
-  integrity sha512-OqlwJq1BdpB83BZXTqI+dNcA6uYk6qk4u9Cgnt64Y+XS7dwdbp/mobx8S2KXf2AXH+scNmA/UVK3SEFHR3vHZA==
+  version "2.11.6"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.11.6.tgz#fa11c21bb235cfba0dfd4170f88adcd36e02ac9b"
+  integrity sha512-/EDgWhlWXenPvyax2UyKPhdHK+IkVFQZUggby41dCeWgE2F20Z3cx8eWikotwKicfKu7HvZ+tz3xN0vdOGrL6A==
 
 fragment-cache@^0.2.1:
   version "0.2.1"
@@ -3623,9 +3623,9 @@ linkify-it@^3.0.1:
     uc.micro "^1.0.1"
 
 lint-staged@^12.0.2:
-  version "12.1.5"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.1.5.tgz#e05582fc39aed5cb13b9dd1dfb8330407246d809"
-  integrity sha512-WyKb+0sNKDTd1LwwAfTBPp0XmdaKkAOEbg4oHE4Kq2+oQVchg/VAcjVQtSqZih1izNsTURjc2EkhG/syRQUXdA==
+  version "12.1.7"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.1.7.tgz#fe9137992ac18a456422bb8484dd30be0140629f"
+  integrity sha512-bltv/ejiLWtowExpjU+s5z8j1Byjg9AlmaAjMmqNbIicY69u6sYIwXGg0dCn0TlkrrY2CphtHIXAkbZ+1VoWQQ==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
