@@ -20,7 +20,7 @@ jobs:
       run: yarn install --frozen-lockfile
     - name: Semantic Release
       id: semantic
-      uses: cycjimmy/semantic-release-action@v2
+      uses: cycjimmy/semantic-release-action@v3
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
